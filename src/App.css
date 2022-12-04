@@ -2,9 +2,72 @@
   text-align: center;
 }
 
+/* HEADER*/
+
+.header{
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+}
+
+.front{
+  color: #61dafb;
+  min-height: 50vh;
+  background-color: #000;
+  font-size: calc(50px + 1vmin);
+  padding: 10px;
+}
+
+.front_sub{
+  font-size: calc(25px + 1vmin);
+  color:#fff;
+}
+
+.get{
+  font-size: calc(15px + 1vmin);
+  color:#61dafb;
+  display: inline-flex;
+  justify-content: space-around;
+}
+ 
+/* NAVIGATIONABAR*/
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: rgb(20, 3, 9);
+  /*font-size: calc(11px + 1vmin);*/
+  padding: 8px;
+}
+
+/* FEARTURES*/
+
+.features{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* FEARTURES2*/
+
+.features2{
+  margin: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+/* NAVIGATION LOGO*/
+
+.logo{
+  color: #61dafb;
+  display: flex; 
+  
+}
+
+.link{
+  color: #61dafb;
 }
 
 @media (prefers-reduced-motion: no-preference) {
