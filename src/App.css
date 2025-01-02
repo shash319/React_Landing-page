@@ -1,19 +1,24 @@
 .App {
   text-align: center;
+  background-color: #1c1e21;
 }
 
 /* HEADER*/
 
 .header{
+  margin-top: 0px;
   color: #fff;
-  background-color: #000;
+  background-color: #374151;
   padding: 10px;
 }
-
+.front_img{
+  padding: 60px;
+  margin-bottom: -90px;
+}
 .front{
-  color: #61dafb;
+  color: #fff;
   min-height: 50vh;
-  background-color: #000;
+  background-color: #1c1e21;
   font-size: calc(50px + 1vmin);
   padding: 10px;
 }
@@ -36,16 +41,19 @@
   display: flex;
   justify-content: space-around;
   color: white;
-  background-color: rgb(20, 3, 9);
+  margin-top: -3px;
+  background-color: #78839b33;
   /*font-size: calc(11px + 1vmin);*/
   padding: 8px;
 }
+
 
 /* FEARTURES*/
 
 .features{
   display: flex;
   justify-content: space-around;
+  color:#fff;
 }
 
 /* FEARTURES2*/
@@ -54,7 +62,7 @@
   margin: 20px;
 }
 .App-logo {
-  height: 40vmin;
+  height: 190px;
   pointer-events: none;
 }
 
@@ -63,7 +71,14 @@
 .logo{
   color: #61dafb;
   display: flex; 
-  
+  height: 40px;
+  margin: 8px 0px 8px 0px;
+  margin-right: 30px;
+  font-size: 19px;
+}
+
+.logo h3{
+  margin: 4px 0px 20px 10px;
 }
 
 .link{
